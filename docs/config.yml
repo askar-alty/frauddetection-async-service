@@ -1,0 +1,16 @@
+[prod]
+logging:
+  file: ./logging/logging.log
+server:
+  host: server
+  port: 8001
+
+[dev]
+server:
+  host: 127.0.0.1
+  port: 8080
+
+[test]
+server:
+  host: 127.0.0.1
+  port: 8080

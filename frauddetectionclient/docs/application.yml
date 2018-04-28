@@ -1,0 +1,17 @@
+[prod]
+server:
+  url: localhost:8001
+logging:
+  file: ./logging/logging.log
+  logstash_host: logstash
+  logstash_port: 5000
+  logstash_path: docs/logstash.db
+  
+[dev]
+server:
+  url: localhost:8001
+logging:
+  file:
+  logstash_host: 127.0.0.1
+  logstash_port: 5000
+  logstash_path: docs/logstash.db
